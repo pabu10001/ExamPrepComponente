@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET6_0;NETCOREAPP
 C:\Users\User\source\repos\ExamenPrepComponentes\ExamenPrepComponentes\App.xaml
-11407045341
+2-112010438
 
-5227025043
+6-405059597
 1941142463650
-MainWindow.xaml;
+ControlesUsuario\ControlUsuario.xaml;MainWindow.xaml;
 
-False
+True
 

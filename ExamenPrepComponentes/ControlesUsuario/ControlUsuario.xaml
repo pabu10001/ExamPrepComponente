@@ -1,0 +1,16 @@
+﻿<UserControl x:Class="ExamenPrepComponentes.ControlesUsuario.ControlUsuario"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:ExamenPrepComponentes.ControlesUsuario"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" Width="570">
+    <Grid Margin="0,0,0,0">
+        <Image x:Name="image" HorizontalAlignment="Left" Height="238" Margin="132,32,0,0" VerticalAlignment="Top" Width="302"/>
+        <Label x:Name="label_nombre" Content="" HorizontalAlignment="Center" Height="50" Margin="0,274,0,0" VerticalAlignment="Top" Width="410"/>
+        <Button x:Name="btt_anterior" Content="anterior" HorizontalAlignment="Left" Height="193" Margin="50,32,0,0" VerticalAlignment="Top" Width="60" Click="onClickAnterior"/>
+        <Button x:Name="btt_siguiente" Content="siguiente" HorizontalAlignment="Left" Height="193" Margin="460,32,0,0" VerticalAlignment="Top" Width="60" Click="onClickSiguiente"/>
+        <StackPanel x:Name="stackPanel" HorizontalAlignment="Center" Height="62" Margin="0,329,0,0" VerticalAlignment="Top" Width="410" Orientation="Horizontal"/>
+    </Grid>
+</UserControl>

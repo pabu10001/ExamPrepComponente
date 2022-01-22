@@ -23,6 +23,7 @@ namespace ExamenPrepComponentes
         public MainWindow()
         {
             InitializeComponent();
+            MiControl.init();
         }
     }
 }
